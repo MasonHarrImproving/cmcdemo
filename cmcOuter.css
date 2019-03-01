@@ -227,6 +227,15 @@ textarea {
 .innerLocation, .inner2ndLocation {
 	color: #999999;
 }
+
+.innerLocation i{
+	color: #016C5B;
+}
+
+.inner2ndLocation i{
+	color: #01486C;
+}
+
 .innerInfoBox i {
 	margin-top: 2.5px;
 	margin-right: 5px;
@@ -237,6 +246,7 @@ textarea {
 	position: relative;
 	width: calc(80% - 100px);
 	max-width: 1200px;
+	color:black;
 	/* margin: auto; */
 	display: inline-block;
 }
@@ -742,6 +752,10 @@ display: inline-block;
 	margin:10px;
 
 }
+
+	.learnEvent{
+		    float:right;
+	}
 @media screen and (max-width:1075px) {
 	.socialContainer i {
 		font-size: 20px;
@@ -903,6 +917,11 @@ display:none;
 	.bioThumbnail i {
 		font-size: 14px;
 	}
+
+	.learnEvent{
+		    float:none;
+	}
+
 	.followOn {
 		font-size: 15px;
 	}
