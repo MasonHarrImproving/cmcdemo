@@ -117,7 +117,8 @@ body, html {
 	font-size: 20px;
 }
 .memberDesc {
-	font-weight: 200;
+	color: #999999;
+    font-weight: 400;
 }
 .memberImage {
 	height: 250px;
@@ -480,7 +481,7 @@ display:inline-flex;
 .sponsorBox span{
 	width: 100%;
     margin-top: 10px;
-    color: #666666;
+    color: #999999;
     display: inline-block;
 }
 
@@ -555,7 +556,7 @@ display:inline-flex;
     max-width: 1024px;
     display: flex;
     font-family: 'Nunito Sans', sans-serif;
-    color: #999999;
+    color: #666666;
     margin: auto;
     text-align: center;
     flex-wrap: wrap;
