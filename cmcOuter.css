@@ -104,6 +104,8 @@ body, html {
 	display: inline-block;
 	height: 100%;
 }
+
+
 .heroDesc {
 	max-width: 700px;
 	margin: auto;
@@ -146,6 +148,12 @@ body, html {
 	width: 100%;
 	display: flex;
 }
+
+.navContainer a{
+	display: flex;
+    margin: auto;
+}
+
 .nameBoxContainer, .phoneBoxContainer, .emailBoxContainer, .commentBoxContainer {
 	flex-basis: 33%;
 	flex-grow: 1;
@@ -765,6 +773,27 @@ textarea {
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.welcomeContainer a {
+	display:inline-block;
+	color:black;	
+	width:100%;	
+	text-decoration:none;	
+	font-size:20px;	
+	margin-top: 10px;	
+    margin-bottom: 10px;	
+
+ }
+
+ .welcomeContainer{
+	font-family: 'Nunito Sans', sans-serif;	
+    max-width: 500px;	
+    width: calc(100% - 40px);	
+    padding: 20px;	
+    margin: auto;	
+    text-align: center;	
+    margin-bottom: 50px;	
 }
 .eventDetails {
 	font-family: 'Nunito Sans', sans-serif;
