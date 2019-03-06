@@ -151,6 +151,32 @@ body, html {
 	flex-grow: 1;
 	margin: 10px;
 }
+
+.navContainer a{
+	display: flex;
+    margin: auto;
+}
+
+.welcomeContainer a {
+	display:inline-block;
+	color:black;	
+	width:100%;	
+	text-decoration:none;	
+	font-size:20px;	
+	margin-top: 10px;	
+    margin-bottom: 10px;	
+
+ }
+
+ .welcomeContainer{
+	font-family: 'Nunito Sans', sans-serif;	
+    max-width: 500px;	
+    width: calc(100% - 40px);	
+    padding: 20px;	
+    margin: auto;	
+    text-align: center;	
+    margin-bottom: 50px;	
+}
 .mainInfoText {
 	width: 100%;
 	margin: 0;
@@ -567,6 +593,7 @@ textarea {
 .imageRow {
 	width: 100%;
 	height: 300px;
+	overflow: hidden;
 	justify-content: center;
 	display: flex;
 	background-color: #999999;
@@ -577,7 +604,7 @@ textarea {
 }
 .imageRow img {
 	flex-basis: auto;
-	width: 100%;
+	
 }
 .eventInfo {
 	display: inline-block;
